@@ -34,5 +34,3 @@ const SchoolProjects = projets.filter((p) => p.titre.includes("ecole"));
 const FirstSchoolProject = projets.find((p) => p.titre.includes("ecole"));
 
 const {titre, description, annee, lien} = FirstSchoolProject;
-
-    
